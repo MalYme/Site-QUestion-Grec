@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link rel="stylesheet" href="Q2.css">
+</head>
+<body class="dark-theme">
+
+    <h1 class="title_1">QUESTION 2</h1>
+    <h2 class="Question">ici se trouvera la question qui est vraiment longs pour bien teste le code ?</h2>
+    
+    <button class="btn_answer1" id="btn_answer1">reponse 1</button>
+    <button class="btn_answer2" id="btn_answer2">reponse 2</button>
+    <button class="btn_answer3" id="btn_answer3">reponse 3</button>
+    <button class="btn_answer4" id="btn_answer4">reponse 4</button>
+
+    <p class="answer">Réponse 1 : -----------------------------------------------------<br>Réponse 2 : -----------------------------------------------------<br>Réponse 3 : -----------------------------------------------------<br>Réponse 3 : -----------------------------------------------------</p>
+    <h3 class="BG" id="BG">MAUVAIS R2PONSE</h3>
+
+    <button class="next_bnt" id="next_btn">Suivant</button>
+    
+
+
+
+
+    <script>
+        document.getElementById('btn_answer1').addEventListener('click', function () {
+            document.getElementById('BG').style.display = 'block';
+        });
+        document.getElementById('btn_answer3').addEventListener('click', function () {
+            document.getElementById('BG').style.display = 'block';
+        });
+        document.getElementById('btn_answer4').addEventListener('click', function () {
+            document.getElementById('BG').style.display = 'block';
+        });
+        document.getElementById('btn_answer2').addEventListener('click', function () {
+            document.getElementById('BG').innerText = "BONNE R2PONSE";
+            document.getElementById('BG').style.color = '#095009';
+            document.getElementById('BG').style.display = 'block';
+            document.getElementById('next_btn').style.display = 'block' ;
+
+        });
+
+        document.getElementById('next_btn').addEventListener('click', function() {
+            window.location.href = 'video2.html' //mettre le chemin de la 1Er vidéo a la place de 'Q1.html'
+
+
+
+
+        })
+    </script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

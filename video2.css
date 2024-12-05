@@ -1,0 +1,37 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey : #534f4f;
+    --white2 : #d1c7c7;
+    
+  }
+  
+  body {
+    background: var(--grey);
+    color: var(--fontColor);
+    font-family: helvetica;
+
+
+
+
+    .next_bnt{
+       
+        position: absolute;
+        color: black;
+        width: 150px;
+        height: 60px;
+        right: 40px;
+        bottom: 290px;
+        background-color: #096109;
+      
+
+
+    }
+
+   
+
+
+
+  
+  }

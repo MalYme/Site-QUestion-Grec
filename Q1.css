@@ -1,0 +1,115 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey : #534f4f;
+    --white2 : #d1c7c7;
+    
+  }
+  
+  body {
+    background: var(--grey);
+    color: var(--fontColor);
+    font-family: helvetica;
+
+
+    .BG{
+        
+        display: none;
+        color: rgb(141, 8, 8);
+        right: 20px;
+        
+    }
+
+    .next_bnt{
+       
+        display: none;
+        position: absolute;
+        color: black;
+        width: 150px;
+        height: 60px;
+        right: 60px;
+        bottom: 80px;
+        background-color: #096109;
+
+
+    }
+
+
+
+
+
+
+    .answer{
+        background-color: rgb(65, 63, 63);
+        height: 300px;
+        padding: 10px;
+        line-height: 60px;
+        
+
+
+    }
+
+
+    .btn_answer1{
+        position: absolute;
+        text-decoration: none;
+        color: #000000;
+        top: 500px;
+        left: 100px;
+        border: none;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .btn_answer2{
+        position: absolute;
+        text-decoration: none;
+        color: #000000;
+        top: 500px;
+        left: 250px;
+        border: none;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .btn_answer3{
+        position: absolute;
+        text-decoration: none;
+        color: #000000;
+        top: 500px;
+        left: 400px;
+        border: none;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .btn_answer4{
+        position: absolute;
+        text-decoration: none;
+        color: #000000;
+        top: 500px;
+        left: 550px;
+        border: none;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    
+
+
+
+  
+  }

@@ -1,0 +1,78 @@
+:root {
+  --green: #00FF00;
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey : #2b2828;
+  
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+  
+
+}
+
+.btn_main_title{
+  position: absolute;
+  text-decoration: none;
+  color: #000000;
+  top: 10px;
+  left: 52%;
+  height: 50px;
+  width: 400px;
+  border: none;
+  font-size: 40px;
+  transform: translateX(-50%);
+
+}
+
+.subtitle{
+  position: absolute;
+  text-decoration: none;
+  color: #000000;
+  top: 60px;
+  left: 52%;
+  height: 50px;
+  width: 400px;
+  border: none;
+  font-size: 20px;
+  transform: translateX(-50%);
+
+}
+
+
+
+.btn_start{
+  position: absolute;
+  text-decoration: none;
+  color: #000000;
+  top: 400px;
+  left: 52%;
+  height: 50px;
+  width: 200px;
+  border: none;
+  transform: translateX(-50%);
+
+
+
+
+
+}
+
+
+/* ----DARK-THEME & LIGHT-THEME---- */
+.light-theme {
+  --bg: var(--grey);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--white);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
