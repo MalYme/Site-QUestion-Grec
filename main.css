@@ -29,6 +29,17 @@ body {
 
 
 }
+.secret{
+  position: absolute;
+  size: 200px;
+  color: var(--bg);
+  background-color: var(--bg);
+ 
+  top: 599px;
+}
+
+
+
 
 .btn_main_title{
   position: absolute;

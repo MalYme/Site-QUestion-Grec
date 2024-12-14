@@ -2,9 +2,7 @@
 
 const btn_start = document.querySelector('.btn_start');
 const score = 0;
-const intput_name = document.getElementById("name_txt")
-
-
+const intput_name = document.getElementById("name_txt");
 
 
 btn_start.addEventListener('click', function() {
@@ -15,3 +13,4 @@ btn_start.addEventListener('click', function() {
    
     console.log('ACTIVER');
 });
+
