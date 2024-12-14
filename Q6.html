@@ -29,7 +29,7 @@
         goodanswer=0 //mettre goodanswer=1 pour la bonne réponse, =0 pour les autres
         document.getElementById('btn_answer1').addEventListener('click', function () {
             document.getElementById('next_btn').style.display = 'block' ;
-            goodanswer=1
+            goodanswer=0
         });
         document.getElementById('btn_answer2').addEventListener('click', function () {
             document.getElementById('next_btn').style.display = 'block' ;
@@ -37,7 +37,7 @@
         });
         document.getElementById('btn_answer4').addEventListener('click', function () {
             document.getElementById('next_btn').style.display = 'block' ;
-            goodanswer=0
+            goodanswer=1
         });
         document.getElementById('btn_answer3').addEventListener('click', function () {
             
@@ -65,7 +65,7 @@
 
             }
             setTimeout(() => {
-                window.location.href = 'video6.html' //mettre le chemin de la Prochaine vidéo a la place de 'Q1.html';
+                window.location.href = 'video7.html' //mettre le chemin de la Prochaine vidéo a la place de 'Q1.html';
                 console.log("botton appuyé");
             }, 3000);
                 
