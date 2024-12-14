@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 9</title><!--ICI !-->
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body class="dark-theme">
+
+    <h1 class="title_1">QUESTION 9</h1> <!--Changé la question et son numéros dans la page et dans le nom de la page-->
+    <h2 class="Question">comment appel-t-on le fait de longer les côtes maritimes pour éviter le danger ?</h2>
+    
+    <button class="btn_answer1" id="btn_answer1">reponse 1</button>
+    <button class="btn_answer2" id="btn_answer2">reponse 2</button>
+    <button class="btn_answer3" id="btn_answer3">reponse 3</button>
+    <button class="btn_answer4" id="btn_answer4">reponse 4</button>
+
+    <p class="answer">Réponse 1 : côtage<br>Réponse 2 : cabotage<br>Réponse 3 : on ne longais pas les côtes<br>Réponse 4 : ramonage</p>
+    <h3 class="BG" id="BG">MAUVAIS RÉPONSE</h3>
+
+    <button class="next_bnt" id="next_btn">Suivant</button>
+    
+
+
+
+
+    <script>
+        goodanswer=0 //mettre goodanswer=1 pour la bonne réponse, =0 pour les autres
+        document.getElementById('btn_answer1').addEventListener('click', function () {
+            document.getElementById('next_btn').style.display = 'block' ;
+            goodanswer=0
+        });
+        document.getElementById('btn_answer2').addEventListener('click', function () {
+            document.getElementById('next_btn').style.display = 'block' ;
+            goodanswer=1
+        });
+        document.getElementById('btn_answer4').addEventListener('click', function () {
+            document.getElementById('next_btn').style.display = 'block' ;
+            goodanswer=0
+        });
+        document.getElementById('btn_answer3').addEventListener('click', function () {
+            
+            document.getElementById('next_btn').style.display = 'block' ;
+            goodanswer=0
+            
+
+        });
+        
+        document.getElementById('next_btn').addEventListener('click', function() {
+            if(goodanswer === 1){
+                document.getElementById('BG').innerText = "BONNE RÉPONSE";
+                document.getElementById('BG').style.color = '#095009';
+                document.getElementById('BG').style.display = 'block';
+                score = parseInt(localStorage.getItem('score'))
+                score = score+1
+                localStorage.setItem('score',score)
+                console.log("bon")
+
+
+            }else{
+                document.getElementById('BG').style.display = 'block';
+                
+
+
+            }
+            setTimeout(() => {
+                window.location.href = 'video10.html' //mettre le chemin de la Prochaine vidéo a la place de 'Q1.html';
+                console.log("botton appuyé");
+            }, 3000);
+                
+
+
+
+
+        })
+    </script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
