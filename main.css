@@ -21,6 +21,14 @@ body {
   
 
 }
+.form{
+  position: absolute;
+  top:  350px;
+  right: 555px;
+
+
+
+}
 
 .btn_main_title{
   position: absolute;

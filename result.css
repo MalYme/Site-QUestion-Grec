@@ -1,0 +1,35 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey : #534f4f;
+    --white2 : #d1c7c7;
+    --darkgreen: #075207;
+    
+  }
+
+
+body{
+    background-color: #534f4f;
+}
+
+h1{
+
+    position: absolute;
+    left: 50px;
+}
+h2{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+.result{
+    position: absolute;
+    left: 200px;
+}
+.result2{
+    position: absolute;
+    left: 235px;
+
+
+}
