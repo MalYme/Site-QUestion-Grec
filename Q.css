@@ -4,13 +4,40 @@
     --black: #000000;
     --grey : #534f4f;
     --white2 : #d1c7c7;
+    --darkgreen: #075207;
     
   }
-  
+  @keyframes pageEnter {
+    to {
+      transform: scale(1); /* Taille normale */
+      opacity: 1; /* Complètement visible */
+    }
+  }
   body {
     background: var(--grey);
     color: var(--fontColor);
     font-family: helvetica;
+    transform: scale(0.); /* Début à une taille réduite */
+    opacity: 0; /* Invisible au départ */
+    animation: pageEnter 0.5s ease forwards; /* Animation */
+
+
+
+    button{
+        transition: transform 0.3s ease,   0.3s ease;
+
+
+
+        
+    }
+    button:hover {
+        transform: translateY(-10px); /* Fait monter le texte */
+        background-color: var(--darkgreen); /* Change également la couleur (facultatif) */
+    }
+    button:active {
+        transform: scale(0.95); /* Réduit légèrement la taille */
+        background-color: navy;
+      }
 
 
     .BG{

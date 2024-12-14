@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 1</title>
+    <title>Question 3</title>
     <link rel="stylesheet" href="Q.css">
 </head>
 <body class="dark-theme">
 
-    <h1 class="title_1">QUESTION 1</h1> <!--Changé la question et son numéros dans la page et dans le nom de la page-->
-    <h2 class="Question">Période de la grec antique ?</h2>
+    <h1 class="title_1">QUESTION 3</h1> <!--Changé la question et son numéros dans la page et dans le nom de la page-->
+    <h2 class="Question">Les voyageurs connu en grec antique ?</h2>
     
     <button class="btn_answer1" id="btn_answer1">reponse 1</button>
     <button class="btn_answer2" id="btn_answer2">reponse 2</button>
     <button class="btn_answer3" id="btn_answer3">reponse 3</button>
     <button class="btn_answer4" id="btn_answer4">reponse 4</button>
 
-    <p class="answer">Réponse 1 : 753av.J.C à 476ap J.C<br>Réponse 2 : -2031av.J.C à 489av.J.C<br>Réponse 3 : -1200av.J.C à 31av.J.C.<br>Réponse 4 : -ça existe pas l'antiquité</p>
+    <p class="answer">Réponse 1 : Mme.Poulet, M.Veritax et Albus Maximus Delportus<br>Réponse 2 : Héraclius, Hieronymus et Théodose<br>Réponse 3 : Hérodote, d'Halicarnasse et Pythéas<br>Réponse 4 : Odoacre, Adrianople et jovien</p>
     <h3 class="BG" id="BG">MAUVAIS RÉPONSE</h3>
 
     <button class="next_bnt" id="next_btn">Suivant</button>
@@ -26,7 +26,7 @@
 
 
     <script>
-        goodanswer=0
+        goodanswer=0 //mettre goodanswer=1 pour la bonne réponse, =0 pour les autres
         document.getElementById('btn_answer1').addEventListener('click', function () {
             document.getElementById('next_btn').style.display = 'block' ;
             goodanswer=0
@@ -65,7 +65,7 @@
 
             }
             setTimeout(() => {
-                window.location.href = 'video2.html' //mettre le chemin de la 1Er vidéo a la place de 'Q1.html';
+                window.location.href = 'video4.html' //mettre le chemin de la 1Er vidéo a la place de 'Q1.html';
                 console.log("botton appuyé");
             }, 3000);
                 
