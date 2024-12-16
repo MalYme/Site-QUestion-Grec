@@ -24,7 +24,7 @@ if (score >7){
         see_score.innerText = "Tricheur";
         see_score.style.color = red;
         document.getElementById("result2").innerText = "";
-        const phrase = Pname +", vous avez triché, je vois souhaite bonne nuit avec de détail qui reviendra vous hantez qand vous irez dormir";
+        const phrase = Pname +", vous avez triché, je vois souhaite bonne nuit avec ce détail qui reviendra vous hantez qand vous irez dormir";
         Ygood.innerText = phrase;
         Ygood.style.color = red;
     }
@@ -43,13 +43,3 @@ if (score===10){
     const phrase = Pname +", pour avoir obtenue le score de 10, vous obtenez les félicitation du jury";
     Ygood.innerText = phrase;
 }
-
-
-/*
-btn_start.addEventListener('click', function() {
-    window.location.href = 'video1.html'; // Chemin relatif à votre fichier actuel
-    localStorage.setItem('score',score);
-   
-    console.log('ACTIVER');
-});
-*/

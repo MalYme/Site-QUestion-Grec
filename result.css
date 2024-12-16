@@ -5,12 +5,14 @@
     --grey : #534f4f;
     --white2 : #d1c7c7;
     --darkgreen: #075207;
+    --violet: #5d0d6d;
     
   }
 
 
 body{
     background-color: #534f4f;
+    overflow:hidden;
 }
 
 h1{
@@ -32,4 +34,9 @@ h2{
     left: 235px;
 
 
+}
+.creator{
+    position: absolute;
+    top: 94%;
+    
 }
