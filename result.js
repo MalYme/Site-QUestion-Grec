@@ -43,3 +43,53 @@ if (score===10){
     const phrase = Pname +", pour avoir obtenue le score de 10, vous obtenez les félicitation du jury";
     Ygood.innerText = phrase;
 }
+if (score===9){
+
+    const phrase = Pname +", Dommage, t'aurais pu faire mieux, bien joué quand même !";
+    Ygood.innerText = phrase;
+}
+if (score===8){
+
+    const phrase = Pname +", BIEN.";
+    Ygood.innerText = phrase;
+}
+if (score===7){
+
+    const phrase = Pname +", 7, comme le nombre de fromage à mettre dans UNE raclette";
+    Ygood.innerText = phrase;
+}
+if (score===6){
+
+    const phrase = Pname +", limite";
+    Ygood.innerText = phrase;
+}
+if (score===5){
+
+    const phrase = Pname +", la moyenne, juste la moyenne quoi";
+    Ygood.innerText = phrase;
+}
+if (score===4){
+
+    const phrase = Pname +", Dura Lex, Sed Lex";
+    Ygood.innerText = phrase;
+}
+if (score===3){
+
+    const phrase = Pname +", plus que 2 mais moins que 4  ";
+    Ygood.innerText = phrase;
+}
+if (score===2){
+
+    const phrase = Pname +", 1+1=2 ";
+    Ygood.innerText = phrase;
+}
+if (score===1){
+
+    const phrase = Pname +", Pour l'honneur ";
+    Ygood.innerText = phrase;
+}
+if (score===0){
+
+    const phrase = Pname +", NUUUUUUUUUUUUUUUL 🫵 ";
+    Ygood.innerText = phrase;
+}
