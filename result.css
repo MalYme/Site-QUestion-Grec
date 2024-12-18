@@ -38,5 +38,7 @@ h2{
 .creator{
     position: absolute;
     top: 94%;
-    
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
 }
