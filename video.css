@@ -31,7 +31,7 @@
   }
   button:hover {
       transform: translateY(-10px); /* Fait monter le texte */
-      background-color: var(--darkgreen); /* Change également la couleur (facultatif) */
+      background-color: rgb(10, 61, 90); /* Change également la couleur (facultatif) */
   }
   button:active {
       transform: scale(0.95); /* Réduit légèrement la taille */

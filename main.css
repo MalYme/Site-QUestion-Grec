@@ -18,6 +18,7 @@ body {
   transform: scale(0.); /* Début à une taille réduite */
   opacity: 0; /* Invisible au départ */
   animation: pageEnter 0.5s ease forwards; /* Animation */
+  height: 100vh;
   
 
 }
@@ -36,6 +37,11 @@ body {
   background-color: var(--bg);
  
   top: 599px;
+}
+p{
+  position: absolute;
+  top: 42%;
+  right: 25%;
 }
 
 
@@ -86,7 +92,7 @@ body {
 
 .btn_start:hover {
   transform: translateY(-10px); /* Fait monter le texte */
-  background-color: rgb(7, 97, 27); /* Change également la couleur (facultatif) */
+  background-color: rgb(10, 61, 90); /* Change également la couleur (facultatif) */
 }
 .btn_start:active {
   transform: scale(0.95); /* Réduit légèrement la taille */
