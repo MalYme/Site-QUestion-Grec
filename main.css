@@ -35,6 +35,7 @@ body {
   size: 200px;
   color: var(--bg);
   background-color: var(--bg);
+  cursor:default;
  
   top: 599px;
 }
@@ -87,6 +88,7 @@ p{
   width: 200px;
   border: none;
   transition: transform 0.3s ease,   0.3s ease;
+  cursor: pointer;
 
 }
 
