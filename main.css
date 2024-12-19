@@ -50,15 +50,8 @@ header h2{
   text-align: center;
 }
 
-.secret{
-  position: absolute;
-  size: 200px;
-  color: var(--bg);
-  background-color: var(--bg);
-  cursor:default;
-}
 .corp{
-  border: #00FF00 0.5px solid;
+  /* border: #00FF00 0.5px solid; */
   height: 81vh;
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +78,7 @@ header h2{
   top: 400px;
   left: 44%;
   height: 50px;
-  width: 200px;
+  width: 150px;
   border: none;
   transition: transform 0.3s ease,   0.3s ease;
   cursor: pointer;
