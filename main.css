@@ -22,64 +22,64 @@ body {
   
 
 }
-.form{
-  position: absolute;
-  top:  350px;
-  right: 555px;
 
-/*test*/
+header{
+  display: flex;
+  flex-direction: column; /* Les éléments (h1 et h2) sont empilés verticalement */
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+  height: 19vh; /* Prend toute la hauteur de la page */
+  /* border: #000000 solid 0.5px; */
+}
+
+
+  header h1{
+    display: inline-block;
+    /* border: #ff0a0a solid 0.5px; */
+    margin: 10px 0; /* Espace entre les rectangles */
+    padding: 10px;
+
 
 }
+header h2{
+  display: inline-block;
+  /* border: #ff0a0a solid 0.5px; */
+  margin: 10px 0; /* Espace entre les rectangles */
+  padding: 10px;
+  width: auto; /* Ajustez la largeur si nécessaire */
+  text-align: center;
+}
+
 .secret{
   position: absolute;
   size: 200px;
   color: var(--bg);
   background-color: var(--bg);
   cursor:default;
- 
-  top: 599px;
 }
-p{
-  position: absolute;
-  top: 42%;
-  right: 25%;
+.corp{
+  border: #00FF00 0.5px solid;
+  height: 81vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /* Les éléments (h1 et h2) sont empilés verticalement */
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+
 }
-
-
-
-
-.btn_main_title{
-  position: absolute;
-  text-decoration: none;
-  color: #000000;
-  top: 10px;
-  left: 52%;
-  height: 50px;
-  width: 400px;
-  border: none;
-  font-size: 40px;
-  transform: translateX(-50%);
+.form{
+  border: #170caf 0.5px;
+  height: auto;
+  margin: 10px;
 
 }
 
-.subtitle{
-  position: absolute;
-  text-decoration: none;
-  color: #000000;
-  top: 60px;
-  left: 52%;
-  height: 50px;
-  width: 400px;
-  border: none;
-  font-size: 20px;
-  transform: translateX(-50%);
 
-}
 
 
 
 .btn_start{
-  position: absolute;
+  display: inline-block;
   text-decoration: none;
   color: #000000;
   top: 400px;
